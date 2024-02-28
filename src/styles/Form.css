@@ -1,0 +1,48 @@
+/* Estilos para el formulario */
+.form-container {
+    width: 400px; /* Ancho del formulario */
+    margin: 0 auto; /* Centrar el formulario horizontalmente */
+    padding: 20px; /* Espacio alrededor del formulario */
+    border: 1px solid #ccc; /* Borde del formulario */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo del formulario */
+  }
+  
+  /* Estilos para las etiquetas de los campos */
+  .form-label {
+    display: block; /* Mostrar las etiquetas en bloques para ocupar todo el ancho */
+    margin-bottom: 5px; /* Espacio inferior entre etiquetas */
+    font-weight: bold; /* Negrita en las etiquetas */
+  }
+  
+  /* Estilos para los campos de entrada */
+  .form-input {
+    width: 100%; /* Ancho completo del campo de entrada */
+    padding: 8px; /* Espacio interno */
+    margin-bottom: 10px; /* Espacio inferior entre campos */
+    border: 1px solid #ccc; /* Borde del campo */
+    border-radius: 3px; /* Bordes redondeados */
+  }
+  
+  /* Estilos para el botón de enviar */
+  .form-submit {
+    width: 100%; /* Ancho completo del botón */
+    padding: 10px; /* Espacio interno */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 3px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+  }
+  
+  /* Estilos para el botón de enviar al pasar el ratón */
+  .form-submit:hover {
+    background-color: #0056b3; /* Cambiar color de fondo al pasar el ratón */
+  }
+  
+  /* Estilos para el mensaje de error */
+  .error-message {
+    color: #ff0000; /* Color rojo para el mensaje de error */
+    margin-top: 5px; /* Espacio superior entre el campo y el mensaje de error */
+  }
+  

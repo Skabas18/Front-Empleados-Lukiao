@@ -14,9 +14,9 @@ function EmpleadosPage() {
     const [showForm, setShowForm] = useState(false);
 
     const getList = 'http://127.0.0.1:8000/empleados';
-    const postSave = 'http://127.0.0.1:8000/save_empleados';
-    const putUpdate = 'http://127.0.0.1:8000/edit_empleados';
-    const getEdit = 'http://127.0.0.1:8000/update_empleados';
+    // const postSave = 'http://127.0.0.1:8000/save_empleados';
+    // const putUpdate = 'http://127.0.0.1:8000/edit_empleados';
+    // const getEdit = 'http://127.0.0.1:8000/update_empleados';
     const postDelete = 'http://127.0.0.1:8000/delete_empleados';
 
     useEffect(() => {
@@ -96,7 +96,7 @@ function EmpleadosPage() {
                     Agregar Nuevo Empleado
                 </Button>
             </div>
-            {showForm && <Form onSubmit={handleSubmitForm} />}
+            {showForm && <Form onSubmit={handleSubmitForm} onClose={handleCloseForm} />}
             <div >
                 <Table striped bordered hover className='table table-striped'>
                     <thead className="thead-dark">
